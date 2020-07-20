@@ -29,3 +29,4 @@ Grupo   |   Nome                |  Usuário              |
 4       |   Braim   |           |
 5       |   Talita   |           |
 6       |   Nathalia   |           |
+7       |   Lara                |   laranunes14         |
