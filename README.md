@@ -25,9 +25,9 @@ Salve os arquivos em suas pastas
 Grupo   |   Nome                |  Usuário              |
 1       |   Gabriel Schwarz     | GabrielSchwarz        |
 2       |   Estevão             | EstevaoGabrielAntunes |
-3       |   Guilherme           |                   |
+3       |   Guilherme           | guidipolito           |
 4       |   Braim   |           |
-5       |   Talita   |           |
+5       |   Talita              |   TalitaHeloisa       |
 6       |   Nathalia   |           |
 6       |   Felipe              |   GarciaFelipe-1973   |
 7       |   Lara                |   laranunes14         |
