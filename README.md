@@ -22,10 +22,10 @@ Salve os arquivos em suas pastas
 
 || Responsaveis  ||
 :------:|-----------|-----------|
-Grupo   |   Nome    |  Usuário  |
-1       |   Gabriel Sc   |          |
-2       |   Estevão   |          |
-3       |   Guilherme   |           |
+Grupo   |   Nome                |  Usuário              |
+1       |   Gabriel Schwarz     | GabrielSchwarz        |
+2       |   Estevão             | EstevaoGabrielAntunes |
+3       |   Guilherme           |                   |
 4       |   Braim   |           |
 5       |   Talita   |           |
 6       |   Nathalia   |           |
