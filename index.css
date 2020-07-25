@@ -1,0 +1,768 @@
+    body {
+    margin: auto;
+    width: 100%;
+    user-select: none;
+    display:block;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+
+/* Topo (Incio) */
+
+#topo{
+    position: relative;
+    width: 100%;
+    height: 18vw;
+    
+}
+#text
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        top: 6vw;
+        font-size: 300%;
+        font-family: Helvetica, Arial, sans-serif; 
+        font-weight: 500%;
+        text-shadow: 2px 2px black;
+        color: rgba(255, 255, 255, 0.911);
+    }
+
+    @media (max-width: 1380px) and (min-width: 1310px){
+        #text{ font-size: 296%;}
+    }
+    @media (max-width: 1310px) and (min-width: 1250px){
+        #text{ font-size: 280%;}
+    }
+    @media (max-width: 1250px) and (min-width: 1200px){
+        #text{ font-size: 272%;}
+    }
+    @media (max-width: 1200px) and (min-width: 1150px){
+        #text{ top: 6vw; font-size: 255%;}
+    }
+    @media (max-width: 1150px) and (min-width: 1130px){
+        #text{ top: 6vw; font-size: 246%;}
+    }
+    @media (max-width: 1130px) and (min-width: 1110px){
+        #text{ top: 6vw; font-size: 242%;}
+    }
+    @media (max-width: 1110px) and (min-width: 1090px){
+        #topo{height: 22vw;}
+        #text{ top: 7vw; font-size: 238%;}
+    }
+    @media (max-width: 1090px) and (min-width: 1070px){
+        #topo{height: 22vw;}
+        #text{ top: 7vw; font-size: 234%;}
+    }
+    @media (max-width: 1090px) and (min-width: 1070px){
+        #topo{height: 22vw;}
+        #text{ top: 7vw; font-size: 230%;}
+    }
+    @media (max-width: 1070px) and (min-width: 1050px){
+        #topo{height: 22vw;}
+        #text{ top: 7vw; font-size: 226%;}
+    }
+    @media (max-width: 1050px) and (min-width: 1030px){
+        #topo{height: 22vw;}
+        #text{ top: 7vw; font-size: 222%;}
+    }
+    @media (max-width: 1030px) and (min-width: 1010px){
+        #topo{height: 22vw;}
+        #text{ top: 7vw; font-size: 218%;}
+    }
+    @media (max-width: 1010px) and (min-width: 950px){
+        #topo{height: 24vw;}
+        #text{ top: 8vw; font-size: 214%;}
+    }
+    @media (max-width: 950px) and (min-width: 920px){
+        #topo{height: 24vw;}
+        #text{ top: 8vw; font-size: 210%;}
+    }
+    @media (max-width: 920px) and (min-width: 900px){
+        #topo{height: 26vw;}
+        #text{ top: 8vw; font-size: 206%;}
+    }
+    @media (max-width: 900px) and (min-width: 860px){
+        #topo{height: 26vw;}
+        #text{ top: 8vw; font-size: 202%;}
+    }
+    @media (max-width: 860px) and (min-width: 820px){
+        #topo{height: 26vw;}
+        #text{ top: 8vw; font-size: 198%;}
+    }
+    @media (max-width: 820px) and (min-width: 770px){
+        #topo{height: 26vw;}
+        #text{ top: 8vw; font-size: 194%;}
+    }
+    @media (max-width: 770px) and (min-width: 700px){
+        #topo{height: 28vw;}
+        #text{ top: 9vw; font-size: 176%;}
+    }
+    @media (max-width: 700px) and (min-width: 660px){
+        #topo{height: 28vw;}
+        #text{ top: 9vw; font-size: 172%;}
+    }
+    @media (max-width: 660px) and (min-width: 600px){
+        #topo{height: 28vw;}
+        #text{ top: 9vw; font-size: 152%;}
+    }
+    @media (max-width: 600px) and (min-width: 560px){
+        #topo{height: 28vw;}
+        #text{ top: 9vw; font-size: 148%;}
+    }
+    @media (max-width: 560px) and (min-width: 540px){
+        #topo{height: 28vw;}
+        #text{ top: 9vw; font-size: 144%;}
+    }
+    @media (max-width: 540px) and (min-width: 500px){
+        #topo{height: 28vw;}
+        #text{ top: 9vw; font-size: 140%;}
+    }
+    @media (max-width: 500px){
+        #topo{height: 30vw;}
+        #text{ top: 9vw; font-size: 136%;}
+    }
+
+/* (Fim) */
+
+
+/* Slide (Incio) */
+
+#slider {
+    position: relative;
+    top: 0%;
+    width: 51%;
+    height: 26vw;
+    margin: 80px auto;
+    perspective: 700px;
+    transform-style: preserve-3d ;
+    transition: 400ms ease;
+}
+ 
+input[type="radio"]{
+    -webkit-appearance: none;
+    position: absolute;
+    Top: 115%;
+    left: 50%;
+}
+
+input[type="radio"]:checked + #verde{
+    border: 10px solid rgb(2, 73, 2);
+}
+
+input[type="radio"]:checked + #amarelo{
+    border: 10px solid rgb(187, 187, 5);
+}
+
+input[type="radio"]:checked + #vermelho{
+    border: 10px solid rgb(122, 4, 4);
+}
+
+input[type="radio"]:checked + #azul{
+    border: 10px solid rgb(6, 6, 143);
+}
+
+input[type="radio"]:checked + #roxo{
+    border: 10px solid rgb(59, 2, 59);
+}
+
+
+#verde{
+    background-color: rgb(2, 73, 2);
+    color: rgb(2, 73, 2);
+    font-size: 5px;
+    border: 1px solid rgb(2, 73, 2);
+    position: relative;
+    top: 110%;
+    left: 30%;
+    margin: 0 15px 0 0;
+}
+
+#amarelo{
+    background-color: rgb(187, 187, 5);
+    color: rgb(187, 187, 5);
+    font-size: 5px;
+    border: 1px solid rgb(187, 187, 5);
+    position: relative;
+    top: 110%;
+    left: 30%;
+    margin: 0 15px 0 0;
+}
+
+#vermelho{
+    background-color: rgb(122, 4, 4);
+    color: rgb(122, 4, 4);
+    font-size: 5px;
+        border: 1px solid rgb(122, 4, 4);
+        position: relative;
+        top: 110%;
+        left: 30%;
+        margin: 0 15px 0 0;
+}
+
+#azul{
+    background-color: rgb(6, 6, 143);
+    color: rgb(6, 6, 143);
+    font-size: 5px;
+    border: 1px solid rgb(6, 6, 143);
+    position: relative;
+    top: 110%;
+    left: 30%;
+    margin: 0 15px 0 0;
+}
+
+#roxo{
+    background-color: rgb(59, 2, 59);
+    color: rgb(59, 2, 59);
+    font-size: 5px;
+    border: 1px solid rgb(59, 2, 59);
+    position: relative;
+    top: 110%;
+    left: 30%;
+    margin: 0 15px 0 0;
+}
+
+@media (max-width: 1200px) and (min-width: 1100px){
+   #verde, #amarelo, #vermelho, #azul, #roxo{
+    left: 25%;
+   }
+}
+@media (max-width: 1100px) and (min-width: 1050px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 24%;
+    }
+ }
+ @media (max-width: 1050px) and (min-width: 960px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 26%;
+     font-size: 4px;
+    }
+ }
+ @media (max-width: 960px) and (min-width: 870px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 25%;
+     font-size: 4px;
+    }
+ }
+ @media (max-width: 870px) and (min-width: 700px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 20%;
+     font-size: 3px;
+    }
+ }
+ @media (max-width: 700px) and (min-width: 650px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 24%;
+     font-size: 2.2px;
+    }
+ }
+ @media (max-width: 650px) and (min-width: 580px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 24%;
+     font-size: 1.8px;
+    }
+ }
+ @media (max-width: 580px) and (min-width: 500px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 22%;
+     font-size: 1px;
+    }
+ }
+ @media (max-width: 500px){
+    #verde, #amarelo, #vermelho, #azul, #roxo{
+     left: 20%;
+     font-size: 0.8px;
+  
+    }
+ }
+
+
+#fora{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: rgba(255, 255, 255, 0.938);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: unset;
+}
+
+#fora p{
+    position: relative;
+     top: 56%;
+     font-size: 174%;
+     text-shadow: 2px 2px black;
+}
+
+#fora button{
+    position: absolute;
+    top: 86%; 
+    left: center;
+    border: 1px;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.849);
+    background-color: rgb(145, 7, 7);
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 130%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width: 1380px) and (min-width: 1200px){
+    #fora button{
+        top: 85%; 
+        font-size: 127%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 56%;
+        font-size: 164%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1150px){
+    #fora button{
+        top: 86%; 
+        font-size: 124%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 55%;
+        font-size: 160%;
+    }
+}
+@media (max-width: 1150px) and (min-width: 1070px){
+    #slider{
+        top: -1%;
+    }
+    #fora button{
+        top: 85%; 
+        font-size: 120%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 56%;
+        font-size: 143%;
+    }
+}
+@media (max-width: 1070px) and (min-width: 900px){
+    #slider{
+        top: -2%;
+    }
+    #fora button{
+        top: 83%; 
+        font-size: 110%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 51%;
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+    #slider{
+        top: -3%;
+    }
+    #fora button{
+        top: 83%;
+        font-size: 105%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 53%;
+        font-size: 113%;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px){
+    #slider{
+        top: -4%;
+    }
+    #fora button{
+        top: 83%;
+        font-size: 75%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 55%;
+        font-size: 90%;
+    }
+}
+@media (max-width: 700px) and (min-width: 600px){
+    #slider{
+        top: -5%;
+    }
+    #fora button{
+        top: 83%;
+        font-size: 70%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 54%;
+        font-size: 80%;
+    }
+}
+@media (max-width: 600px) and (min-width: 500px){
+    #slider{
+        top: -6%;
+    }
+    #fora button{
+        top: 83%;
+        font-size: 50%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 54%;
+        font-size: 64%;
+    }
+}
+@media (max-width: 500px) and (min-width: 400px){
+    #slider{
+        top: -7%;
+    }
+    #fora button{
+        top: 82%;
+        font-size: 50%;
+        padding-left: 9vw;
+        padding-right: 9vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #fora p{
+        position: relative;
+        top: 52%;
+        font-size: 60%;
+    }
+}
+
+#slide1{
+    background-image: url(cd1.jpg);
+    border: 2px solid black;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+ 
+}
+
+#slide2{
+    background-image: url(cd2.jpg);
+    border: 2px solid black;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#slide3{
+    background-image: url(cd3.jpg);
+    border: 2px solid black;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#slide4{
+    background-image: url(cd4.jpg);
+    border: 2px solid black;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#slide5{
+    background-image: url(cd5.jpg);
+    border: 2px solid black;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
+    box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+    transform: translate3d(0%, 0, 0px);
+} 
+
+#s1:checked ~ #slide2,  #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
+    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+    transform: translate3d(35%, 0, -100px);
+} 
+
+#s1:checked ~ #slide3,  #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+    transform: translate3d(80%, 0, -250px);
+} 
+
+#s1:checked ~ #slide4,  #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+    transform: translate3d(-80%, 0, -250px);
+} 
+
+#s1:checked ~ #slide5,  #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
+    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+    transform: translate3d(-35%, 0, -100px);
+} 
+
+/* (Fim) */
+
+
+/* Quadradinhos (Inicio) */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* l1 e l2 são a definição das linhas do "Veja Também"*/
+.l1{
+    height: 3px;
+    border-radius: 5px;
+    margin-right: 70%;
+    background-color: rgb(90, 12, 12);
+}
+
+.l2{
+    height: 3px;
+    border-radius: 5px;
+    margin-left: 10%;
+    background-color: rgb(90, 12, 12);
+}
+
+/* Definição de textos que vão ter durante os blocos*/
+.textoDestaque{
+    margin-left: 1%;
+    color: rgb(90, 12, 12);
+}
+
+.textoTit{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+
+.textoDet{
+    text-align: center;
+    color: #494949;
+}
+
+/* Classe de "limpeza" impedir que uma div fique em cima da outra*/
+.clear{
+    clear: both;
+}
+
+/* O espaçamento de cada class linha*/
+.linha{
+    padding: 5% 5% 2% 5%;
+}
+
+/* Definição dos blocos*/
+
+.bloco1{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+
+.bloco3{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+
+.bloco2{
+    width: 30%;
+    float: left;
+}
+
+.bloco4{
+    width: 30%;
+    float: right;
+}
+
+.bloco5{
+    width: 30%;
+    margin-left: 34%;
+}
+
+.espaco{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+/* Tamanho da imagem do bloco maior*/
+.bloco2 img{
+    width: 22em;
+}
+
+/*
+        @medias para modificar partes específicas do site quando o tamanho da tela tiver
+    determinados tamanhos (max e min) ele redefine coisas nas classes selecionadas
+    deixa o site mais responsivo em diferentes tamanhos.
+*/
+@media (max-width: 1200px) and (min-width: 990px){
+    .bloco2{
+        width: 100%;
+        float: none;
+    }
+
+    .bloco2 img{
+        width: 30em;
+    }
+
+    .espaco{
+        clear: both;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .espaco .bloco1{
+        width: 42%;
+        float: left;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 753px){
+    .bloco1{
+        width: 42%;
+        position: relative;
+        top: 5vw;
+    }
+
+    .bloco2 {
+        width: 100%;
+        float: none;
+    }
+
+    .bloco3 {
+        position: relative;
+        top: 5vw;
+        left: 18vw;
+        width: 50%;
+        float: none;
+    }
+
+    .espaco{
+        width: 100%;
+        float: none;
+        
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 752px) and (min-width: 670px){
+    .bloco2{
+        width: 100%;
+        float: none;
+    }
+
+    .bloco3 {
+        position: relative;
+        top: 5vw;
+        left: 18vw;
+        width: 50%;
+        float: none;
+    }
+
+    .bloco1{
+        width: 40%;
+        margin-right: 5%;
+        float: left;
+    }
+
+    .espaco{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+}
+
+@media (max-width: 669px){
+    .bloco2{
+        width: 90%;
+        
+        float: none;
+    }
+
+    .bloco3 {
+        position: relative;
+        top: 5vw;
+        left: 18vw;
+        width: 50%;
+        float: none;
+    }
+
+    .bloco1{
+        width: 80%;
+        float: none;
+    }
+
+    .espaco{
+        width: 100%;
+        float: none;
+        
+        margin: 0;
+    }
+}
+
+/* (Fim) */
