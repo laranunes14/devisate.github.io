@@ -26,8 +26,8 @@ Grupo   |   Nome                |  Usuário              |
 1       |   Gabriel Schwarz     | GabrielSchwarz        |
 2       |   Estevão             | EstevaoGabrielAntunes |
 3       |   Guilherme           | guidipolito           |
-4       |   Braim   |           |
-5       |   Talita              |   TalitaHeloisa       |
-6       |   Nathalia   |           |
+4       |   Braim               | Braiam-Micael2        |
+5       |   Talita              | TalitaHeloisa         |
+6       |   Nathalia            |           |
 6       |   Felipe              |   GarciaFelipe-1973   |
 7       |   Lara                |   laranunes14         |
